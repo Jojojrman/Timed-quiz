@@ -1,4 +1,17 @@
 # Timed-quiz
+This quiz has a total of 3 questions.
+--
+Timer
+--
+* 60 seconds long
+* 5 seconds taken off each question wrong
+* Time will be stored along with name and score
+--
+Score
+--
+* 0, 33, 100
+--
+# SCREENSHOTS
 ![inputscore](https://user-images.githubusercontent.com/73362190/103018733-b0552f80-4513-11eb-871d-e1c7cc54b5bc.PNG)
 ![question1](https://user-images.githubusercontent.com/73362190/103018793-c662f000-4513-11eb-95b5-3d88eb6e7b7a.PNG)
 ![question2](https://user-images.githubusercontent.com/73362190/103018813-ccf16780-4513-11eb-9079-b2bac64dc57b.PNG)
