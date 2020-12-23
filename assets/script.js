@@ -220,6 +220,9 @@ function thirdQuestion() {
 function endQuiz() {
     clearTimeout(t);
     secondsLeft = 60 - secondsLeft;
+    yourScore = yourScore / 3;
+    yourScore = yourScore * 100;
+    yourScore = Math.round(yourScore);
     questionEl.textContent = "Your score: " + yourScore + " In " + secondsLeft + " seconds!";
     if (yourScore === 3) {
         progressEl.textContent = "Great job!";
